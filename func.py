@@ -8,4 +8,4 @@ def readTxt(file_name):
     with open(file_name,'rb')as file_content:
         for f in file_content.readlines():
             data.append(f)
-    return ''.join(data)
+    return data
